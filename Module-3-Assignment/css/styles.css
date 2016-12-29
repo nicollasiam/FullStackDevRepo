@@ -1,0 +1,68 @@
+/********** Base styles **********/
+* {
+  font-family: 'Baloo Thambi', cursive;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-family: 'Baloo Thambi', cursive;
+}
+
+.container {
+    width: 100%;
+  }
+
+section {
+	border: 1px solid black;
+	padding: 10px 15px 10px;
+	margin: 15px;
+	position: relative;
+	background-color: #cccccc;
+}
+
+section div {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 1.3em;
+}
+
+
+/************ HEADER ************/
+
+#header {
+  background-color: #ddddbb;
+  margin-bottom: 40px;
+}
+
+#brand {
+  margin-left: 0;
+  font-size: 2em;
+}
+
+li {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+}
+
+/************ END HEADER ************/
+
+
+/****** Desktop ******/
+@media (max-width: 767px) {
+
+  #brand {
+    margin-left: 15px;
+  }
+
+  .navbar-header button.navbar-toggle {
+    margin-right: 30px; 
+  }
+  
+
+}
